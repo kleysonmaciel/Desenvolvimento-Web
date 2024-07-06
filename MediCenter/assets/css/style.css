@@ -1,6 +1,7 @@
-*{
+* {
     font-family: Arial;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -83,6 +84,7 @@ nav a:hover {
     padding: 0;
     max-width: 350px;
 }
+
 .banner_headline h2 {
     color: #ffffff;
     font-size: 22px;
@@ -92,37 +94,45 @@ nav a:hover {
     max-width: 350px;
     margin-top: 30px;
 }
+
 .banner_options {
     height: 210px;
     display: flex;
     color: #ffffff;
 
 }
+
 .banner1,
 .banner2,
-.banner3{
+.banner3 {
     flex: 1;
     padding: 20px;
 
 }
-.banner1{
+
+.banner1 {
     background-color: #39aae1;
 }
-.banner2{
+
+.banner2 {
     background-color: #0079c7;
 }
-.banner3{
+
+.banner3 {
     background-color: #2b4c99;
 }
-.banner_title{
+
+.banner_title {
     font-size: 21px;
 }
-.banner_desc{
-    font-size: 12px;
+
+.banner_desc {
+    font-size: 13px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.banner_options a{
+
+.banner_options a {
     display: inline-block;
     border: 1px solid #ffffff;
     padding: 5px;
@@ -130,8 +140,9 @@ nav a:hover {
     font-size: 12px;
     text-decoration: none;
 }
-.banner_hours{
-    font-size: 12px;
+
+.banner_hours {
+    font-size: 13px;
     border-bottom: 1px solid #ffffff;
     display: flex;
     justify-content: space-between;
